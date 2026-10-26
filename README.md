@@ -12,9 +12,11 @@ Open to work and collaboration: message me on Facebook or Instagram.
 ### Featured: [section-team](https://github.com/afel6/section-team)
 A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done.
 
-**8.6/10 vs 7.1 for plain Claude Code in blind-judged quality · 12 of 12 judge votes**
+**8.6/10 vs 7.1 for plain Claude Code in blind-judged quality · won all 9 judge votes against it · about 3.6× the cost**
 
-Both setups passed every hidden test, so the gap is in how the code is built: correctness 9.3, robustness 9.0. I ran the 17-round benchmark myself and the judges are AI models. [Method and results](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
+Both setups passed every hidden test, so the gap is in how the code is built. I ran the benchmark myself (2 runs per task) and the judges are AI models. [Method and results](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
+
+Try it in Claude Code: `/plugin install section-team --marketplace afel6/section-team`
 
 ### Open source: [NALTRA](https://github.com/Rxd3/NALTRA)
 A multilingual NLP benchmark that classifies 31,407 EU research projects (English and Turkish) into a 586-node science taxonomy. I'm the top contributor: I built the dataset release, the model ensembles, the evaluation pipeline (robustness, out-of-scope rejection, calibration, latency), the results dashboard and the tests.
@@ -22,16 +24,18 @@ A multilingual NLP benchmark that classifies 31,407 EU research projects (Englis
 ### What I build
 | Area | Examples |
 |---|---|
-| AI agents | Multi-agent teams, tool use, safe database queries |
-| RAG assistants | Cited answers over documents, cloud or fully offline |
-| Private AI | On-premise models and search, audit logs |
+| AI agents | Multi-agent teams, tool use, safe database queries ([section-team](https://github.com/afel6/section-team)) |
+| RAG and private AI | Cited answers over documents; cloud, on-premise or fully offline, with audit logs |
+| Machine learning and NLP | Text classification, model ensembles, calibrated evaluation ([NALTRA](https://github.com/Rxd3/NALTRA)) |
 | Full-stack apps | React, FastAPI and Node, PostgreSQL and Supabase, dashboards |
 | Arabic and offline-first | Right-to-left interfaces, offline QR workflows |
 | Business systems | Document control, approvals, compliance, CAPA |
 | Data and reports | Clean data from Excel, PDF and Word; automatic Office and PDF reports |
 | Engineering software | Physics-checked models, simulation, oil and gas |
-| AI coding tools | Claude Code plugins and agent teams that write, test and review code |
+| AI coding tools | Claude Code plugins and agent teams that write, test and review code ([section-team](https://github.com/afel6/section-team)) |
 | Quality and security | Tests from unit to end-to-end, CI/CD, Docker, hardening |
+
+Linked rows have public code; the rest is in private repositories.
 
 ### Tech
 **AI:** ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)<br>
