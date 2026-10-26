@@ -7,6 +7,9 @@ Most of my work is in private repositories for my employer, so it isn't shown he
 ### Featured: [section-team](https://github.com/afel6/section-team)
 A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done. Over 17 benchmark rounds (3 tasks × 2 runs, graded blind by AI judges, plus hidden tests), the final version scored **8.6/10 against 7.1** for plain Claude Code and won all 12 judge votes. The harness and method are [in the repo](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
 
+### Featured: [pvt-correlations](https://github.com/afel6/pvt-correlations)
+Textbook black-oil PVT correlations in pure Python: Standing, Vasquez-Beggs, Glaso and Beggs-Robinson. Give it an oil's API gravity, gas gravity, temperature and solution GOR, and it returns the bubble point and a full PVT table (Rs, Bo and viscosity, below and above the bubble point). Every equation follows its published paper; the tests pin each equation with hand-computed values and catch near-miss mistakes such as using °F where the paper uses °R.
+
 ### What I build
 - **AI agents and RAG assistants:** multi-agent teams, tool use, and cited answers over documents, in the cloud or fully offline.
 - **Private, on-premise AI:** local models and search, audit logs, data that never leaves the building.
