@@ -7,10 +7,17 @@ Most of my work is in private repositories for my employer, so it isn't shown he
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/abdalraofelkabir2)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/raouf.el6)
 
-For work or collaboration, message me on Instagram or Facebook.
+Open to work and collaboration: DMs are open.
 
 ### Featured: [section-team](https://github.com/afel6/section-team)
-A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done. Over 17 benchmark rounds (3 tasks × 2 runs, graded blind by AI judges, plus hidden tests), the final version scored **8.6/10 against 7.1** for plain Claude Code and won all 12 judge votes. I ran the benchmark myself and the judges are AI models; the hidden tests, which every run passed, are the objective part. The harness and method are [in the repo](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
+A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done.
+
+**8.6/10 vs 7.1 for plain Claude Code · 12 of 12 blind judge votes · every hidden test passed**
+
+I ran the 17-round benchmark myself and the judges are AI models; the hidden tests are the objective part. [Method and results](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
+
+### Open source: [NALTRA](https://github.com/Rxd3/NALTRA)
+A multilingual NLP benchmark that classifies 31,407 EU research projects (English and Turkish) into a 586-node science taxonomy. I'm the top contributor: I built the dataset release, the model ensembles, the evaluation pipeline (robustness, out-of-scope rejection, calibration, latency), the results dashboard and the tests.
 
 ### What I build
 - **AI agents and multi-agent systems:** supervisor-and-specialist teams, tool use, agent-to-agent delegation and safe database queries.
