@@ -4,11 +4,13 @@
 
 Most of my work is in private repositories for my employer, so it isn't shown here. The public projects below are my own.
 
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1CPdFNnTfE/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/abdalraofelkabir2)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/raouf.el6)
 
+For work or collaboration, message me on Instagram or Facebook.
+
 ### Featured: [section-team](https://github.com/afel6/section-team)
-A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done. Over 17 benchmark rounds (3 tasks × 2 runs, graded blind by AI judges, plus hidden tests), the final version scored **8.6/10 against 7.1** for plain Claude Code and won all 12 judge votes. The harness and method are [in the repo](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
+A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done. Over 17 benchmark rounds (3 tasks × 2 runs, graded blind by AI judges, plus hidden tests), the final version scored **8.6/10 against 7.1** for plain Claude Code and won all 12 judge votes. I ran the benchmark myself and the judges are AI models; the hidden tests, which every run passed, are the objective part. The harness and method are [in the repo](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
 
 ### Featured: [pvt-correlations](https://github.com/afel6/pvt-correlations)
 Textbook black-oil PVT correlations in pure Python: Standing, Vasquez-Beggs, Glaso and Beggs-Robinson. Give it an oil's API gravity, gas gravity, temperature and solution GOR, and it returns the bubble point and a full PVT table (Rs, Bo and viscosity, below and above the bubble point). Every equation follows its published paper; the tests pin each equation with hand-computed values and catch near-miss mistakes such as using °F where the paper uses °R.
@@ -21,10 +23,10 @@ Textbook black-oil PVT correlations in pure Python: Standing, Vasquez-Beggs, Gla
 - **AI coding tools:** Claude Code plugins and agent teams that write, test and review code.
 
 ### Tech
-**AI:** ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-**Science:** ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-**Backend:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+**AI:** ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)<br>
+**Science:** ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)<br>
+**Backend:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)<br>
 **Frontend and delivery:** ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
-Questions or ideas? [Open an issue on section-team](https://github.com/afel6/section-team/issues/new/choose).
+Questions about a project? Open an issue on [section-team](https://github.com/afel6/section-team/issues/new/choose) or [pvt-correlations](https://github.com/afel6/pvt-correlations/issues).
