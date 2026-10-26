@@ -44,5 +44,9 @@ Linked rows have public code; the rest is in private repositories.
 **Frontend and delivery:** ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)<br>
 **Science:** ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
+<p align="center">
+  <img alt="If you can imagine it, I can build it. - Raouf" src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" width="300" />
+</p>
+
 ---
 Questions about section-team? [Open an issue](https://github.com/afel6/section-team/issues/new/choose).
