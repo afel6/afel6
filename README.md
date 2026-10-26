@@ -55,5 +55,8 @@ A Claude Code plugin that turns a session into a supervised team of AI agents, w
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge)
 
-### ✍️ Random Dev Quote
-![Random dev quote](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight)
+### ✍️ Dev Quotes
+<p>
+  <img alt="Random dev quote" src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" width="300" />
+  <img alt="If you can imagine it, I can build it. - Raouf" src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" width="300" />
+</p>
