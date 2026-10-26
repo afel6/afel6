@@ -44,7 +44,10 @@ Linked rows have public code; the rest is in private repositories.
 **Science:** ![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-E70488?style=flat-square&logo=pandas&logoColor=white)
 
 <p align="center">
-  <img alt="If you can imagine it, I can build it. - Raouf" src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" width="300" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" />
+    <img alt="If you can imagine it, I can build it. - Raouf" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" width="500" />
+  </picture>
 </p>
 
 ---
