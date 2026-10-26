@@ -2,6 +2,9 @@
 
 **Computer and petroleum engineer.** I build AI systems and engineering software, from the first idea to a tested, deployed product.
 
+> ### *"Anything that can be imagined, I can build."*
+> **— Raouf**
+
 ### 🌐 Socials
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/share/1CPdFNnTfE/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/raouf.el6)
