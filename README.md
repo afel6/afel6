@@ -4,6 +4,9 @@
 
 Most of my work is in private repositories for my employer, so it isn't shown here. The public projects below are my own.
 
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1CPdFNnTfE/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/raouf.el6)
+
 ### Featured: [section-team](https://github.com/afel6/section-team)
 A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done. Over 17 benchmark rounds (3 tasks × 2 runs, graded blind by AI judges, plus hidden tests), the final version scored **8.6/10 against 7.1** for plain Claude Code and won all 12 judge votes. The harness and method are [in the repo](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
 
@@ -24,4 +27,4 @@ Textbook black-oil PVT correlations in pure Python: Standing, Vasquez-Beggs, Gla
 **Frontend and delivery:** ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
-Questions or ideas? [Open an issue on section-team](https://github.com/afel6/section-team/issues/new/choose) · [Facebook](https://www.facebook.com/share/1CPdFNnTfE/) · [Instagram](https://www.instagram.com/raouf.el6)
+Questions or ideas? [Open an issue on section-team](https://github.com/afel6/section-team/issues/new/choose).
