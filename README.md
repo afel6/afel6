@@ -2,7 +2,7 @@
 
 **Computer and petroleum engineer.** I build AI systems and engineering software, from the first idea to a tested, deployed product.
 
-> ### *"Anything that can be imagined, I can build."*
+> ### *"If you can imagine it, I can build it."*
 > **— Raouf**
 
 ### 🌐 Socials
