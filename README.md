@@ -2,7 +2,7 @@
 
 **Computer and petroleum engineer.** I build AI systems, full-stack apps and engineering software, from the first idea to a tested, deployed product.
 
-Most of my work is in private repositories for my employer, so it isn't shown here. The public projects below are my own.
+Most of my work is in private repositories for my employer, so it isn't shown here. Below are my own public project and an open-source project I contribute to.
 
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/abdalraofelkabir2)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/raouf.el6)
