@@ -23,12 +23,17 @@ A bilingual (English–Turkish) benchmark that assigns 31,407 EU research projec
 
 **Finding:** a calibrated linear SVM (0.558 EN / 0.489 TR micro-F1) beat every ensemble and a fine-tuned XLM-R, while the retrieval model lost about six times less micro-F1 on Turkish.
 
+### NLP project: [RECAP](https://github.com/Rxd3/RECAP)
+Restores punctuation and capitalization in lowercased, unpunctuated transcripts of informal English speech (SponSpeech), as sequence labeling with three label sets (4, 8 and 12 joint punctuation-and-casing labels), comparing a hidden Markov model with Viterbi decoding against linear-chain CRFs on leak-free splits. Team project of six; I'm the top contributor: I built the evaluation pipeline (the official evaluator, video-grouped paired bootstrap with Holm correction, an end-of-utterance shortcut baseline), the leakage and gold-noise analyses, threshold decoding and the comparison methods (a hidden-event language model, simulated ASR noise), and restructured the code into one tested `recap` command-line package with CI.
+
+**Finding:** the improved CRF beat the HMM by 14.8 macro-F1 points (49.92 vs 35.12, mode A test). With each utterance's last word removed, the HMM falls to 9.13 while the CRF keeps 36.40: the HMM had mostly learned "put a period at the end".
+
 ### What I build
 | Area | Examples |
 |---|---|
 | AI agents and coding tools | Multi-agent teams, tool use, safe database queries; Claude Code plugins that write, test and review code ([section-team](https://github.com/afel6/section-team)) |
 | RAG and private AI | Cited answers over documents; cloud, on-premise or fully offline, with audit logs |
-| Machine learning and NLP | Text classification, model ensembles, calibrated evaluation ([NALTRA](https://github.com/Rxd3/NALTRA)) |
+| Machine learning and NLP | Text classification, sequence labeling (HMM, CRF), model ensembles, calibrated evaluation ([NALTRA](https://github.com/Rxd3/NALTRA), [RECAP](https://github.com/Rxd3/RECAP)) |
 | Full-stack apps | React, FastAPI and Node, PostgreSQL and Supabase, dashboards |
 | Arabic and offline-first | Right-to-left interfaces, offline QR workflows |
 | Business systems | Document control, approvals, compliance, CAPA |
