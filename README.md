@@ -18,8 +18,10 @@ Both setups passed every hidden test, so the gap is in how the code is built. I 
 
 Try it in Claude Code 2.1.275+: `/plugin install section-team --marketplace afel6/section-team` ([older versions](https://github.com/afel6/section-team#install))
 
-### Open source: [NALTRA](https://github.com/Rxd3/NALTRA)
-A multilingual NLP benchmark that classifies 31,407 EU research projects (English and Turkish) into a 586-node science taxonomy. I'm the top contributor: I built the dataset release, the model ensembles, the evaluation pipeline (robustness, out-of-scope rejection, calibration, latency), the results dashboard and the tests.
+### NLP project: [NALTRA](https://github.com/Rxd3/NALTRA) · [live results](https://rxd3.github.io/NALTRA/results/)
+A bilingual (English–Turkish) benchmark that assigns 31,407 EU research projects to a 586-node science taxonomy, tested on machine-translated, code-switched and noisy text, with out-of-scope rejection. Team project of six; I'm the top contributor: I built the classical and retrieval models, the zero-shot LLM members and the voting ensembles, the evaluation pipeline (paired bootstrap with Holm correction, robustness, near-OOD, latency), the results page and the tests for these parts, and integrated the dataset release.
+
+**Finding:** a calibrated linear SVM (0.558 EN / 0.489 TR micro-F1) beat every ensemble and a fine-tuned XLM-R, while the retrieval model lost about six times less micro-F1 on Turkish.
 
 ### What I build
 | Area | Examples |
