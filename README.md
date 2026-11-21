@@ -2,7 +2,7 @@
 
 **Computer and petroleum engineer.** I build AI systems, full-stack apps and engineering software, from the first idea to a tested, deployed product.
 
-Most of my work is in private repositories for my employer, so it isn't shown here. Below are my own public project and an open-source project I contribute to.
+Most of my work is in private repositories for my employer, so it isn't shown here. Here are selected public projects and team collaborations.
 
 Open to work and collaboration: message me on Facebook or Instagram.
 
@@ -28,12 +28,17 @@ Restores punctuation and capitalization in lowercased, unpunctuated transcripts 
 
 **Finding:** the improved CRF beat the HMM by 14.8 macro-F1 points (49.92 vs 35.12, mode A test). With each utterance's last word removed, the HMM falls to 9.13 while the CRF keeps 36.40: the HMM had mostly learned "put a period at the end".
 
+### NLP project: [TURAS](https://github.com/Rxd3/TURAS) · [benchmark report](https://github.com/Rxd3/TURAS/blob/main/results/final/M4_M5_FINAL_REPORT.md)
+A six-person project on Turkish parliamentary speech recognition, acoustic fine-tuning, and relational rescoring. I owned integration, evaluation, and QA. I built the Turkish text normalizer and WER/CER evaluator, the shared decoding and timing harness, and prediction and N-best validators. I set up CI and a pinned CUDA environment, ran [Whisper and Qwen3-ASR smoke tests](https://github.com/Rxd3/TURAS/blob/main/docs/m6-smoke-results.md) on an RTX 5070 Ti, and built the verifier that checks 56 source hashes and recomputes WER/CER for 20 benchmark conditions.
+
+**Team finding:** Full Whisper fine-tuning reduced normalized word error rate from 24.51% to 10.37% on 636 test clips scored against edited parliamentary minutes. Learned relational rescoring showed no reliable gain over the original one-best outputs.
+
 ### What I build
 | Area | Examples |
 |---|---|
 | AI agents and coding tools | Multi-agent teams, tool use, safe database queries; Claude Code plugins that write, test and review code ([section-team](https://github.com/afel6/section-team)) |
 | RAG and private AI | Cited answers over documents; cloud, on-premise or fully offline, with audit logs |
-| Machine learning and NLP | Text classification, sequence labeling (HMM, CRF), model ensembles, calibrated evaluation ([NALTRA](https://github.com/Rxd3/NALTRA), [RECAP](https://github.com/Rxd3/RECAP)) |
+| Machine learning and NLP | Text classification, sequence labeling (HMM, CRF), model ensembles, calibrated evaluation ([NALTRA](https://github.com/Rxd3/NALTRA), [RECAP](https://github.com/Rxd3/RECAP), [TURAS](https://github.com/Rxd3/TURAS)) |
 | Full-stack apps | React, FastAPI and Node, PostgreSQL and Supabase, dashboards |
 | Arabic and offline-first | Right-to-left interfaces, offline QR workflows |
 | Business systems | Document control, approvals, compliance, CAPA |
