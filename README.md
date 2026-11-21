@@ -1,66 +1,18 @@
 ## Hi, I'm Raouf 👋
 
-**Computer and petroleum engineer.** I build AI systems, full-stack apps and engineering software, from the first idea to a tested, deployed product.
+I build **applied AI systems** and **reproducible NLP evaluations**. My background is in computer and petroleum engineering.
 
-Most of my work is in private repositories for my employer, so it isn't shown here. Here are selected public projects and team collaborations.
+Open to work and collaboration. Reach me on [Facebook](https://www.facebook.com/abdalraofelkabir2) or [Instagram](https://www.instagram.com/raouf.el6).
 
-Open to work and collaboration: message me on Facebook or Instagram.
+### Featured projects
 
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/abdalraofelkabir2)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/raouf.el6)
+- **[section-team](https://github.com/afel6/section-team)**. I built a Claude Code plugin that delegates work to specialist agents and requires code review before handoff. On three unseen tasks, blind AI judges scored it **8.80 vs. 8.16** for plain Claude Code at about **2.2× the cost**. Both passed all hidden tests. [Held-out benchmark](https://github.com/afel6/section-team/blob/main/docs/benchmark-heldout-2026-11.md)
+- **[Folio OCR](https://github.com/afel6/folio-ocr)**. I built an offline OCR CLI and local review app for English and Arabic documents. It flags uncertain lines and unread regions before exporting TXT, DOCX, or JSON. [Evaluation](https://github.com/afel6/folio-ocr#results)
+- **[TURAS](https://github.com/Rxd3/TURAS)**. I owned integration and evaluation for Turkish parliamentary speech recognition, building the WER/CER evaluator, timing harness, validators, and submission verifier. The team's full Whisper fine-tune reduced normalized word error rate from **24.51% to 10.37%** on 636 clips scored against edited minutes. [Benchmark report](https://github.com/Rxd3/TURAS/blob/main/results/final/M4_M5_FINAL_REPORT.md)
 
-### Featured: [section-team](https://github.com/afel6/section-team)
-A Claude Code plugin that turns a session into a supervised team of AI agents, where every piece of code must pass a strict review before it is done.
+### More NLP work
 
-**8.6 vs 7.1 blind-judged quality against plain Claude Code · ranked 1st by all 12 judges · about 3.6× the cost**
+- **[NALTRA](https://github.com/Rxd3/NALTRA)**. I built classification and retrieval models and the evaluator for a bilingual research taxonomy benchmark. A calibrated linear SVM led the tested models at **0.558 English and 0.489 translated-Turkish micro-F1**. [Results](https://rxd3.github.io/NALTRA/results/)
+- **[RECAP](https://github.com/Rxd3/RECAP)**. I built the evaluator and audited utterance-end shortcuts for punctuation and capitalization restoration. The improved CRF scored **49.92 vs. 35.12 macro-F1** for the HMM on the primary test.
 
-Both setups passed every hidden test, so the gap is in how the code is built. I ran the benchmark myself (2 runs per task), the judges are AI models, and the team was tuned on these same three tasks, so expect smaller gains on new work. [Method and results](https://github.com/afel6/section-team/blob/main/docs/benchmark-2026-10-24.md).
-
-Try it in Claude Code 2.1.275+: `/plugin install section-team --marketplace afel6/section-team` ([older versions](https://github.com/afel6/section-team#install))
-
-### NLP project: [NALTRA](https://github.com/Rxd3/NALTRA) · [live results](https://rxd3.github.io/NALTRA/results/)
-A bilingual (English–Turkish) benchmark that assigns 31,407 EU research projects to a 586-node science taxonomy, tested on machine-translated, code-switched and noisy text, with out-of-scope rejection. Team project of six; I'm the top contributor: I built the classical and retrieval models, the zero-shot LLM members and the voting ensembles, the evaluation pipeline (paired bootstrap with Holm correction, robustness, near-OOD, latency), the results page and the tests for these parts, and integrated the dataset release.
-
-**Finding:** a calibrated linear SVM (0.558 EN / 0.489 TR micro-F1) beat every ensemble and a fine-tuned XLM-R, while the retrieval model lost about six times less micro-F1 on Turkish.
-
-### NLP project: [RECAP](https://github.com/Rxd3/RECAP)
-Restores punctuation and capitalization in lowercased, unpunctuated transcripts of informal English speech (SponSpeech), as sequence labeling with three label sets (4, 8 and 12 joint punctuation-and-casing labels), comparing a hidden Markov model with Viterbi decoding against linear-chain CRFs on leak-free splits. Team project of six; I'm the top contributor: I built the evaluation pipeline (the official evaluator, video-grouped paired bootstrap with Holm correction, an end-of-utterance shortcut baseline), the leakage and gold-noise analyses, threshold decoding and the comparison methods (a hidden-event language model, simulated ASR noise), and restructured the code into one tested `recap` command-line package with CI.
-
-**Finding:** the improved CRF beat the HMM by 14.8 macro-F1 points (49.92 vs 35.12, mode A test). With each utterance's last word removed, the HMM falls to 9.13 while the CRF keeps 36.40: the HMM had mostly learned "put a period at the end".
-
-### NLP project: [TURAS](https://github.com/Rxd3/TURAS) · [benchmark report](https://github.com/Rxd3/TURAS/blob/main/results/final/M4_M5_FINAL_REPORT.md)
-A six-person project on Turkish parliamentary speech recognition, acoustic fine-tuning, and relational rescoring. I owned integration, evaluation, and QA. I built the Turkish text normalizer and WER/CER evaluator, the shared decoding and timing harness, and prediction and N-best validators. I set up CI and a pinned CUDA environment, ran [Whisper and Qwen3-ASR smoke tests](https://github.com/Rxd3/TURAS/blob/main/docs/m6-smoke-results.md) on an RTX 5070 Ti, and built the verifier that checks 56 source hashes and recomputes WER/CER for 20 benchmark conditions.
-
-**Team finding:** Full Whisper fine-tuning reduced normalized word error rate from 24.51% to 10.37% on 636 test clips scored against edited parliamentary minutes. Learned relational rescoring showed no reliable gain over the original one-best outputs.
-
-### What I build
-| Area | Examples |
-|---|---|
-| AI agents and coding tools | Multi-agent teams, tool use, safe database queries; Claude Code plugins that write, test and review code ([section-team](https://github.com/afel6/section-team)) |
-| RAG and private AI | Cited answers over documents; cloud, on-premise or fully offline, with audit logs |
-| Machine learning and NLP | Text classification, sequence labeling (HMM, CRF), model ensembles, calibrated evaluation ([NALTRA](https://github.com/Rxd3/NALTRA), [RECAP](https://github.com/Rxd3/RECAP), [TURAS](https://github.com/Rxd3/TURAS)) |
-| Full-stack apps | React, FastAPI and Node, PostgreSQL and Supabase, dashboards |
-| Arabic and offline-first | Right-to-left interfaces, offline QR workflows |
-| Business systems | Document control, approvals, compliance, CAPA |
-| Data and reports | Clean data from Excel, PDF and Word; automatic Office and PDF reports |
-| Engineering software | Physics-checked models, simulation, oil and gas |
-| Quality and security | Tests from unit to end-to-end, CI/CD, Docker, hardening ([section-team CI](https://github.com/afel6/section-team/actions/workflows/test.yml)) |
-
-Linked rows have public code; the rest is in private repositories.
-
-### Tech
-**AI:** ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-6B7280?style=flat-square&logo=ollama&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)<br>
-**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)<br>
-**Backend and data:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)<br>
-**Frontend and delivery:** ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)<br>
-**Science:** ![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-E70488?style=flat-square&logo=pandas&logoColor=white)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" />
-    <img alt="If you can imagine it, I can build it. - Raouf" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=If%20you%20can%20imagine%20it%2C%20I%20can%20build%20it.&author=Raouf" width="500" />
-  </picture>
-</p>
-
----
-Questions about section-team? [Open an issue](https://github.com/afel6/section-team/issues/new/choose).
+I also build full-stack apps and engineering software, including private work on document workflows and oil and gas. My main tools include Python, PyTorch, TypeScript, FastAPI, React, PostgreSQL, and Docker.
