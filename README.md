@@ -1,5 +1,7 @@
 ## Hi, I'm Raouf 👋
 
+[![GitHub followers](https://img.shields.io/github/followers/afel6)](https://github.com/afel6?tab=followers) [![GitHub stars](https://img.shields.io/github/stars/afel6/section-team)](https://github.com/afel6/section-team/stargazers) [![section-team release](https://img.shields.io/github/v/release/afel6/section-team)](https://github.com/afel6/section-team/releases)
+
 **Petroleum engineer building evaluated AI systems — agents, RAG, and offline OCR.**
 
 I build applied AI systems and reproducible NLP evaluations. My background is in computer and petroleum engineering, and I work at PRC LIBYA.
